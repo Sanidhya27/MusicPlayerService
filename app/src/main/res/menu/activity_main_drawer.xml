@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_between"
+        >
+        <!--<item-->
+            <!--android:id="@+id/nav_compi"-->
+            <!--android:icon="@drawable/ic_menu_compi"-->
+            <!--android:title="Competitions" />-->
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_menu_event"
+            android:title="Events"/>
+        <!--<item-->
+            <!--android:id="@+id/nav_voting"-->
+            <!--android:icon="@drawable/ic_menu_voting"-->
+            <!--android:title="Voting" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_news"-->
+            <!--android:icon="@drawable/ic_menu_news"-->
+            <!--android:title="News" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_faq"-->
+            <!--android:icon="@drawable/ic_menu_help"-->
+            <!--android:title="F.A.Q." />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_lookback"-->
+            <!--android:icon="@drawable/ic_menu_lookback"-->
+            <!--android:title="MI Lookback" />-->
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_info_details"
+            android:title="About MI" />
+    </group>
+    <item android:title="">
+        <menu>
+            <item android:id="@+id/nav_fnb"
+                android:icon="@drawable/ic_local_dining_black_24dp"
+                android:title="Food n Beverages"/>
+
+            <item
+                android:id="@+id/nav_contacts"
+                android:icon="@drawable/ic_menu_call"
+                android:title="Contacts" />
+            <item
+                android:id="@+id/nav_developers"
+                android:icon="@drawable/ic_menu_developers"
+                android:title="Developers" />
+        </menu>
+    </item>
+
+</menu>

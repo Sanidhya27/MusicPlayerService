@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="8dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mr. and Ms. MI"
+            android:id="@+id/name"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#7de2fc"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/description"
+            android:textColor="#000000"
+            android:text="Showcase your talents before the entire world"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/time"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="STARTS: 1:30AM"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/venue"
+            android:textColor="#000000"
+            android:text="VENUE: NCC Grounds"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="0.7"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/going"
+        android:src="@drawable/going_check"
+        android:layout_marginRight="5dp"/>
+
+</LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_height="0.5dp"
+        android:src="@drawable/divider"
+        android:background="#455A64"/>
+
+
+</LinearLayout>

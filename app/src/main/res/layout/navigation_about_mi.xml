@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FEFCCB"
+    tools:context="com.example.android.moodindigo.AboutMIActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.milookbackpractise.MainActivity">
+
+        <RelativeLayout
+            android:id="@+id/relative_layout_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FEFCCB">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/logounit" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="150dp"
+                android:src="@drawable/theme_lafete_unit" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/parallax_1"
+                android:translationZ="5dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="26dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/parallax_2"
+                android:translationZ="4dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="137dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/parallax_4" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative_layout_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF6658">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tickets_frontpage"
+                android:id="@+id/tickets"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="About Us"
+                android:textAlignment="center"
+                android:layout_marginTop="300dp"
+                android:textSize="22dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mood Indigo or MoodI, as it is fondly called, is the annual cultural festival of IIT Bombay, and the largest in Asia. Held towards the end of December every year, it attracts a whopping crowd of over 1,39,000 students from more than 1700 colleges nationwide. Mood Indigo is devoted to creating an unforgettable experience for all its visitors, simultaneously providing unique opportunities to the youth for showcasing their talents in front of extremely large audiences and top-notch judges. Being a massive platform for providing cultural exchange, Mood Indigo 2017 is ready to take all its visitors on a delightful ride through its theme ‘La Fete Carnaval’. The 47th edition of the festival will be held from the 22nd December to 25th December, 2017. Join us for a glorious carnival!"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:layout_marginTop="330dp"
+                android:padding="8dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relative_layout_3"
+            android:background="#FEFCCB">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stat2"
+                android:scaleType="centerCrop"
+                android:layout_centerHorizontal="true"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stat1"
+                android:scaleType="centerCrop"
+                android:layout_centerHorizontal="true"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stat3"
+                android:scaleType="centerCrop"
+                android:layout_centerHorizontal="true"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/train_reveal"
+                android:scaleY=".3"
+                android:scaleType="centerCrop"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-110dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/feather1"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/feather2"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="240dp"
+                android:layout_marginRight="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/feather3"
+                android:layout_marginTop="350dp"
+                android:layout_marginLeft="20dp"/>
+        </RelativeLayout>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:paddingRight="30dp"
+            android:layout_marginBottom="150dp"
+            android:background="#FEFCCB">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relative_layout_4">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text=" Our Journey"
+                    android:textSize="23dp"
+                    android:layout_marginTop="20dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/signboard"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="80dp"
+                    android:id="@+id/sign1"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/signboard"
+                    android:rotationY="180"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="230dp"
+                    android:id="@+id/sign2"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/signboard"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="380dp"
+                    android:id="@+id/sign3"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/signboard"
+                    android:rotationY="180"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="530dp"
+                    android:id="@+id/sign4"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/signboard"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="680dp"
+                    android:id="@+id/sign5"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/signboard"
+                    android:rotationY="180"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="830dp"
+                    android:id="@+id/sign6"/>
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="70dp"
+                    android:orientation="vertical"
+                    android:layout_toRightOf="@id/sign1"
+                    android:layout_marginLeft="15dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1971"
+                        android:textStyle="bold"
+                        android:textSize="30dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="First ever Mood Indigo"
+                        android:textSize="18dp"
+                        android:layout_marginTop="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Executed with Budget of INR 5000"
+                        android:textSize="18dp"
+                        android:layout_marginTop="2dp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="220dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:gravity="right"
+                    android:layout_toLeftOf="@id/sign2"
+                    android:layout_marginRight="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2008"
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="First International Night"
+                        android:textSize="18dp"
+                        android:layout_marginTop="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ensiferum Concert"
+                        android:textSize="18dp"
+                        android:layout_marginTop="2dp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="370dp"
+                    android:layout_alignParentRight="true"
+                    android:orientation="vertical"
+                    android:layout_toRightOf="@id/sign3"
+                    android:layout_marginLeft="15dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2009"
+                        android:textStyle="bold"
+                        android:textSize="30dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Porcupine Tree performs in India for the first time at Mood Indigo"
+                        android:textSize="18dp"
+                        android:layout_marginTop="5dp"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="520dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:gravity="right"
+                    android:layout_toLeftOf="@id/sign4"
+                    android:layout_marginRight="5dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2012"
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Simple Plan Concert"
+                        android:textSize="18dp"
+                        android:layout_marginTop="5dp"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="670dp"
+                    android:layout_alignParentRight="true"
+                    android:orientation="vertical"
+                    android:layout_toRightOf="@id/sign5"
+                    android:layout_marginLeft="15dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2014"
+                        android:textStyle="bold"
+                        android:textSize="30dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sander Van Doorn Concert"
+                        android:textSize="18dp"
+                        android:layout_marginTop="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EDM night"
+                        android:textSize="18dp"
+                        android:layout_marginTop="2dp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="820dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:gravity="right"
+                    android:layout_toLeftOf="@id/sign6">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2016"
+                            android:textStyle="bold"
+                            android:textSize="30dp"
+                            android:id="@+id/year_2016"
+                            android:textAlignment="textEnd"
+                            android:gravity="end"
+                            android:layout_alignParentRight="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Transform Maharashtra, a social initiative launched by Hon. CM of Maharashtra Devendra Fadnavis"
+                            android:textSize="18dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_below="@id/year_2016"
+                            android:textAlignment="textEnd"
+                            android:gravity="end"
+                            />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </FrameLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="0dp"
+            android:background="#dffdfd">
+            <!--Cloud Placement Start-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cloud1"
+                android:layout_marginTop="130dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cloud2"
+                android:layout_marginTop="400dp"
+                android:layout_marginLeft="-60dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cloud3"
+                android:layout_marginTop="750dp"
+                android:layout_marginRight="-60dp"/>
+            <!--Cloud Placement end-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cloud_fefccb"
+                    android:scaleType="centerCrop"/>
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/hotair_balloon"
+                            android:scaleY="0.5"
+                            android:scaleX="0.5"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/airbaloon1"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="150dp">
+                            <TextView
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="'The crowd was amazing! It was a wonderful experience'"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Porcupine Tree"
+                                android:textStyle="bold"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/hotair_balloon"
+                            android:scaleY="0.5"
+                            android:scaleX="0.5"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/airbaloon2"
+                            android:layout_alignParentRight="true"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="20dp"
+                            android:gravity="end"
+                            android:textAlignment="textEnd">
+                            <TextView
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:textAlignment="textEnd"
+                                android:layout_gravity="end"
+                                android:text="'India! You were amazing. It was a world class experience for us. Thank you, MoodI'"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Simple Plan"
+                                android:textStyle="bold"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/hotair_balloon"
+                            android:scaleY="0.5"
+                            android:scaleX="0.5"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/airbaloon3"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="150dp">
+                            <TextView
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+
+                                android:text="'Lovely Memories. Everthing was PERFECT. Anytime MoodI calls us, we'll be ready to play.'"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Shankar Ehsaan Loy"
+                                android:textStyle="bold"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/hotair_balloon"
+                            android:scaleY="0.5"
+                            android:scaleX="0.5"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/airbaloon4"
+                            android:layout_alignParentRight="true"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="20dp"
+                            android:gravity="end"
+                            android:textAlignment="textEnd">
+                            <TextView
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:textAlignment="textEnd"
+                                android:layout_gravity="end"
+                                android:text="'Thank you guys for the party tonight. It was awesome. Big pleasure to play for you'"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="VINAI"
+                                android:textStyle="bold"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </FrameLayout>
+                <!--Final Image-->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="70dp"
+                    android:paddingBottom="50dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/frontpage_end_typography"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

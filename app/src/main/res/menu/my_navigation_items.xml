@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_map"
+        android:title="Map"
+        android:icon="@drawable/nav_maps" />
+    <item android:id="@+id/action_events"
+        android:title="Events"
+        android:icon="@drawable/ic_menu_event" />
+    <item android:id="@+id/action_developers"
+        android:title="Developers"
+        android:icon="@drawable/ic_menu_developers" />
+</menu>
